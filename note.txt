@@ -1,0 +1,47 @@
+source code (github): https://github.com/bayuhadi863/tailwindcss-landing-page
+
+primary bacground: bg-green-200 dark:bg-green-800
+
+background: bg-white dark:bg-gray-900
+
+text: text-gray-900 dark:text-gray-200
+
+primary color (button & logo): text-orange-600 bg-orange-600
+
+app name: DesignAgency
+
+Hero section: 
+  headline: Increase Your Customers Loyalty and Satisfaction
+  subheadline: We help businesses like yours earn more customers, standout from competitors, make more money
+
+About Section: 
+  title: what we do
+  headline: We provide the Perfect Solution to your business growth
+
+  1st card: 
+    title: Grow Your Business
+    description: We help identify the best ways to improve your business
+  
+  2nd card: 
+    title: Improve brand loyalty
+    description: We help identify the best ways to improve your business
+  
+  3rd card: 
+    title: Improve Business Model
+    description: We help identify the best ways to improve your business
+
+Subscription Section:
+  title: Subscribe
+  headline: Subscribe To Get The Latest News About Us
+  subheadline: Please drop your email below to get daily update about what we do
+
+footer: &copy; 2024 DesignAgency. All Rights Reserved.
+
+Java Script:
+
+ onclick="toggleDarkMode()"
+
+function toggleDarkMode() {
+      const htmlElement = document.querySelector('html');
+      htmlElement.classList.toggle('dark');
+    }
